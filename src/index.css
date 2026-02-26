@@ -1,0 +1,9 @@
+.bgcolor {
+  background: linear-gradient(#0f2027, #203a43, #2c5364);
+}
+
+.border-gradient {
+  padding: 7px;
+  border-radius: 50%;
+  background: linear-gradient(45deg, #00c7ff, #0076ff, #00ff77);
+}
