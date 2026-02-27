@@ -83,7 +83,7 @@ const Github = () => {
                     <h4 className="fw-bold">
                         {user.name || "Octocat"}
                     </h4>
-                    <p className="text-secondary">@{user.login}</p>
+                    <p className="text-secondary">@{user.login || "Octocat"}</p>
 
                     <p className="mt-2">{user.bio || "No bio available"}</p>
 
@@ -120,5 +120,6 @@ const Github = () => {
         </div>
     );
 };
+
 
 export default Github;
